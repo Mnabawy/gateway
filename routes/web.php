@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\AdminUsersController;
-use App\Models\Role;
-use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,7 +21,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-// require __DIR__.'/auth.php';
+require __DIR__.'/auth.php';
 
 
-Route::resource('admin/users', AdminUsersController::class);
+Route::get('/admin', function () {
+    return view('admin.index');
+});

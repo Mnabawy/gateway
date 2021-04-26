@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/assets/js/libs/scripts.js":
+/*!*********************************************!*\
+  !*** ./resources/assets/js/libs/scripts.js ***!
+  \*********************************************/
+/***/ (() => {
+
+eval("/**\n * Created by edwin on 11/7/15.\n */\n$(document).ready(function () {\n  $('#selectAllBoxes').click(function (event) {\n    if (this.checked) {\n      $('.checkBoxes').each(function () {\n        this.checked = true;\n      });\n    } else {\n      $('.checkBoxes').each(function () {\n        this.checked = false;\n      });\n    }\n  });\n  /**************** User Profile **********************/\n\n  var panels = $('.user-infos');\n  var panelsButton = $('.dropdown-user');\n  panels.hide(); //Click dropdown\n\n  panelsButton.click(function () {\n    //get data-for attribute\n    var dataFor = $(this).attr('data-for');\n    var idFor = $(dataFor); //current button\n\n    var currentButton = $(this);\n    idFor.slideToggle(400, function () {\n      //Completed slidetoggle\n      if (idFor.is(':visible')) {\n        currentButton.html('<i class=\"glyphicon glyphicon-chevron-up text-muted\"></i>');\n      } else {\n        currentButton.html('<i class=\"glyphicon glyphicon-chevron-down text-muted\"></i>');\n      }\n    });\n  });\n  $('[data-toggle=\"tooltip\"]').tooltip(); //$('button').click(function(e) {\n  //    e.preventDefault();\n  //    alert(\"This is a demo.\\n :-)\");\n  //});\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2xpYnMvc2NyaXB0cy5qcz8zY2VlIl0sIm5hbWVzIjpbIiQiLCJkb2N1bWVudCIsInJlYWR5IiwiY2xpY2siLCJldmVudCIsImNoZWNrZWQiLCJlYWNoIiwicGFuZWxzIiwicGFuZWxzQnV0dG9uIiwiaGlkZSIsImRhdGFGb3IiLCJhdHRyIiwiaWRGb3IiLCJjdXJyZW50QnV0dG9uIiwic2xpZGVUb2dnbGUiLCJpcyIsImh0bWwiLCJ0b29sdGlwIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFFQUEsQ0FBQyxDQUFDQyxRQUFELENBQUQsQ0FBWUMsS0FBWixDQUFrQixZQUFVO0FBRXhCRixFQUFBQSxDQUFDLENBQUMsaUJBQUQsQ0FBRCxDQUFxQkcsS0FBckIsQ0FBMkIsVUFBU0MsS0FBVCxFQUFlO0FBRXRDLFFBQUcsS0FBS0MsT0FBUixFQUFpQjtBQUViTCxNQUFBQSxDQUFDLENBQUMsYUFBRCxDQUFELENBQWlCTSxJQUFqQixDQUFzQixZQUFVO0FBRTVCLGFBQUtELE9BQUwsR0FBZSxJQUFmO0FBRUgsT0FKRDtBQU1ILEtBUkQsTUFRTztBQUdITCxNQUFBQSxDQUFDLENBQUMsYUFBRCxDQUFELENBQWlCTSxJQUFqQixDQUFzQixZQUFVO0FBRTVCLGFBQUtELE9BQUwsR0FBZSxLQUFmO0FBRUgsT0FKRDtBQU9IO0FBRUosR0F0QkQ7QUE0QkE7O0FBSUEsTUFBSUUsTUFBTSxHQUFHUCxDQUFDLENBQUMsYUFBRCxDQUFkO0FBQ0EsTUFBSVEsWUFBWSxHQUFHUixDQUFDLENBQUMsZ0JBQUQsQ0FBcEI7QUFDQU8sRUFBQUEsTUFBTSxDQUFDRSxJQUFQLEdBcEN3QixDQXNDeEI7O0FBQ0FELEVBQUFBLFlBQVksQ0FBQ0wsS0FBYixDQUFtQixZQUFXO0FBQzFCO0FBQ0EsUUFBSU8sT0FBTyxHQUFHVixDQUFDLENBQUMsSUFBRCxDQUFELENBQVFXLElBQVIsQ0FBYSxVQUFiLENBQWQ7QUFDQSxRQUFJQyxLQUFLLEdBQUdaLENBQUMsQ0FBQ1UsT0FBRCxDQUFiLENBSDBCLENBSzFCOztBQUNBLFFBQUlHLGFBQWEsR0FBR2IsQ0FBQyxDQUFDLElBQUQsQ0FBckI7QUFDQVksSUFBQUEsS0FBSyxDQUFDRSxXQUFOLENBQWtCLEdBQWxCLEVBQXVCLFlBQVc7QUFDOUI7QUFDQSxVQUFHRixLQUFLLENBQUNHLEVBQU4sQ0FBUyxVQUFULENBQUgsRUFDQTtBQUNJRixRQUFBQSxhQUFhLENBQUNHLElBQWQsQ0FBbUIsMkRBQW5CO0FBQ0gsT0FIRCxNQUtBO0FBQ0lILFFBQUFBLGFBQWEsQ0FBQ0csSUFBZCxDQUFtQiw2REFBbkI7QUFDSDtBQUNKLEtBVkQ7QUFXSCxHQWxCRDtBQXFCQWhCLEVBQUFBLENBQUMsQ0FBQyx5QkFBRCxDQUFELENBQTZCaUIsT0FBN0IsR0E1RHdCLENBOER4QjtBQUNBO0FBQ0E7QUFDQTtBQU9ILENBeEVEIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBDcmVhdGVkIGJ5IGVkd2luIG9uIDExLzcvMTUuXG4gKi9cblxuJChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24oKXtcblxuICAgICQoJyNzZWxlY3RBbGxCb3hlcycpLmNsaWNrKGZ1bmN0aW9uKGV2ZW50KXtcblxuICAgICAgICBpZih0aGlzLmNoZWNrZWQpIHtcblxuICAgICAgICAgICAgJCgnLmNoZWNrQm94ZXMnKS5lYWNoKGZ1bmN0aW9uKCl7XG5cbiAgICAgICAgICAgICAgICB0aGlzLmNoZWNrZWQgPSB0cnVlO1xuXG4gICAgICAgICAgICB9KTtcblxuICAgICAgICB9IGVsc2Uge1xuXG5cbiAgICAgICAgICAgICQoJy5jaGVja0JveGVzJykuZWFjaChmdW5jdGlvbigpe1xuXG4gICAgICAgICAgICAgICAgdGhpcy5jaGVja2VkID0gZmFsc2U7XG5cbiAgICAgICAgICAgIH0pO1xuXG5cbiAgICAgICAgfVxuXG4gICAgfSk7XG5cblxuXG5cblxuICAgIC8qKioqKioqKioqKioqKioqIFVzZXIgUHJvZmlsZSAqKioqKioqKioqKioqKioqKioqKioqL1xuXG5cblxuICAgIHZhciBwYW5lbHMgPSAkKCcudXNlci1pbmZvcycpO1xuICAgIHZhciBwYW5lbHNCdXR0b24gPSAkKCcuZHJvcGRvd24tdXNlcicpO1xuICAgIHBhbmVscy5oaWRlKCk7XG5cbiAgICAvL0NsaWNrIGRyb3Bkb3duXG4gICAgcGFuZWxzQnV0dG9uLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICAgICAvL2dldCBkYXRhLWZvciBhdHRyaWJ1dGVcbiAgICAgICAgdmFyIGRhdGFGb3IgPSAkKHRoaXMpLmF0dHIoJ2RhdGEtZm9yJyk7XG4gICAgICAgIHZhciBpZEZvciA9ICQoZGF0YUZvcik7XG5cbiAgICAgICAgLy9jdXJyZW50IGJ1dHRvblxuICAgICAgICB2YXIgY3VycmVudEJ1dHRvbiA9ICQodGhpcyk7XG4gICAgICAgIGlkRm9yLnNsaWRlVG9nZ2xlKDQwMCwgZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAvL0NvbXBsZXRlZCBzbGlkZXRvZ2dsZVxuICAgICAgICAgICAgaWYoaWRGb3IuaXMoJzp2aXNpYmxlJykpXG4gICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgY3VycmVudEJ1dHRvbi5odG1sKCc8aSBjbGFzcz1cImdseXBoaWNvbiBnbHlwaGljb24tY2hldnJvbi11cCB0ZXh0LW11dGVkXCI+PC9pPicpO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgZWxzZVxuICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIGN1cnJlbnRCdXR0b24uaHRtbCgnPGkgY2xhc3M9XCJnbHlwaGljb24gZ2x5cGhpY29uLWNoZXZyb24tZG93biB0ZXh0LW11dGVkXCI+PC9pPicpO1xuICAgICAgICAgICAgfVxuICAgICAgICB9KVxuICAgIH0pO1xuXG5cbiAgICAkKCdbZGF0YS10b2dnbGU9XCJ0b29sdGlwXCJdJykudG9vbHRpcCgpO1xuXG4gICAgLy8kKCdidXR0b24nKS5jbGljayhmdW5jdGlvbihlKSB7XG4gICAgLy8gICAgZS5wcmV2ZW50RGVmYXVsdCgpO1xuICAgIC8vICAgIGFsZXJ0KFwiVGhpcyBpcyBhIGRlbW8uXFxuIDotKVwiKTtcbiAgICAvL30pO1xuXG5cblxuXG5cblxufSk7Il0sImZpbGUiOiIuL3Jlc291cmNlcy9hc3NldHMvanMvbGlicy9zY3JpcHRzLmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/assets/js/libs/scripts.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/assets/js/libs/scripts.js"]();
+/******/ 	
+/******/ })()
+;

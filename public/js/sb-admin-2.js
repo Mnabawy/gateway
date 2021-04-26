@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/assets/js/libs/sb-admin-2.js":
+/*!************************************************!*\
+  !*** ./resources/assets/js/libs/sb-admin-2.js ***!
+  \************************************************/
+/***/ (() => {
+
+eval("$(function () {\n  $('#side-menu').metisMenu();\n}); //Loads the correct sidebar on window load,\n//collapses the sidebar on window resize.\n// Sets the min-height of #page-wrapper to window size\n\n$(function () {\n  $(window).bind(\"load resize\", function () {\n    topOffset = 50;\n    width = this.window.innerWidth > 0 ? this.window.innerWidth : this.screen.width;\n\n    if (width < 768) {\n      $('div.navbar-collapse').addClass('collapse');\n      topOffset = 100; // 2-row-menu\n    } else {\n      $('div.navbar-collapse').removeClass('collapse');\n    }\n\n    height = (this.window.innerHeight > 0 ? this.window.innerHeight : this.screen.height) - 1;\n    height = height - topOffset;\n    if (height < 1) height = 1;\n\n    if (height > topOffset) {\n      $(\"#page-wrapper\").css(\"min-height\", height + \"px\");\n    }\n  });\n  var url = window.location;\n  var element = $('ul.nav a').filter(function () {\n    return this.href == url || url.href.indexOf(this.href) == 0;\n  }).addClass('active').parent().parent().addClass('in').parent();\n\n  if (element.is('li')) {\n    element.addClass('active');\n  }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2xpYnMvc2ItYWRtaW4tMi5qcz82OWJkIl0sIm5hbWVzIjpbIiQiLCJtZXRpc01lbnUiLCJ3aW5kb3ciLCJiaW5kIiwidG9wT2Zmc2V0Iiwid2lkdGgiLCJpbm5lcldpZHRoIiwic2NyZWVuIiwiYWRkQ2xhc3MiLCJyZW1vdmVDbGFzcyIsImhlaWdodCIsImlubmVySGVpZ2h0IiwiY3NzIiwidXJsIiwibG9jYXRpb24iLCJlbGVtZW50IiwiZmlsdGVyIiwiaHJlZiIsImluZGV4T2YiLCJwYXJlbnQiLCJpcyJdLCJtYXBwaW5ncyI6IkFBQUFBLENBQUMsQ0FBQyxZQUFXO0FBRVRBLEVBQUFBLENBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JDLFNBQWhCO0FBRUgsQ0FKQSxDQUFELEMsQ0FNQTtBQUNBO0FBQ0E7O0FBQ0FELENBQUMsQ0FBQyxZQUFXO0FBQ1RBLEVBQUFBLENBQUMsQ0FBQ0UsTUFBRCxDQUFELENBQVVDLElBQVYsQ0FBZSxhQUFmLEVBQThCLFlBQVc7QUFDckNDLElBQUFBLFNBQVMsR0FBRyxFQUFaO0FBQ0FDLElBQUFBLEtBQUssR0FBSSxLQUFLSCxNQUFMLENBQVlJLFVBQVosR0FBeUIsQ0FBMUIsR0FBK0IsS0FBS0osTUFBTCxDQUFZSSxVQUEzQyxHQUF3RCxLQUFLQyxNQUFMLENBQVlGLEtBQTVFOztBQUNBLFFBQUlBLEtBQUssR0FBRyxHQUFaLEVBQWlCO0FBQ2JMLE1BQUFBLENBQUMsQ0FBQyxxQkFBRCxDQUFELENBQXlCUSxRQUF6QixDQUFrQyxVQUFsQztBQUNBSixNQUFBQSxTQUFTLEdBQUcsR0FBWixDQUZhLENBRUk7QUFDcEIsS0FIRCxNQUdPO0FBQ0hKLE1BQUFBLENBQUMsQ0FBQyxxQkFBRCxDQUFELENBQXlCUyxXQUF6QixDQUFxQyxVQUFyQztBQUNIOztBQUVEQyxJQUFBQSxNQUFNLEdBQUcsQ0FBRSxLQUFLUixNQUFMLENBQVlTLFdBQVosR0FBMEIsQ0FBM0IsR0FBZ0MsS0FBS1QsTUFBTCxDQUFZUyxXQUE1QyxHQUEwRCxLQUFLSixNQUFMLENBQVlHLE1BQXZFLElBQWlGLENBQTFGO0FBQ0FBLElBQUFBLE1BQU0sR0FBR0EsTUFBTSxHQUFHTixTQUFsQjtBQUNBLFFBQUlNLE1BQU0sR0FBRyxDQUFiLEVBQWdCQSxNQUFNLEdBQUcsQ0FBVDs7QUFDaEIsUUFBSUEsTUFBTSxHQUFHTixTQUFiLEVBQXdCO0FBQ3BCSixNQUFBQSxDQUFDLENBQUMsZUFBRCxDQUFELENBQW1CWSxHQUFuQixDQUF1QixZQUF2QixFQUFzQ0YsTUFBRCxHQUFXLElBQWhEO0FBQ0g7QUFDSixHQWhCRDtBQWtCQSxNQUFJRyxHQUFHLEdBQUdYLE1BQU0sQ0FBQ1ksUUFBakI7QUFDQSxNQUFJQyxPQUFPLEdBQUdmLENBQUMsQ0FBQyxVQUFELENBQUQsQ0FBY2dCLE1BQWQsQ0FBcUIsWUFBVztBQUMxQyxXQUFPLEtBQUtDLElBQUwsSUFBYUosR0FBYixJQUFvQkEsR0FBRyxDQUFDSSxJQUFKLENBQVNDLE9BQVQsQ0FBaUIsS0FBS0QsSUFBdEIsS0FBK0IsQ0FBMUQ7QUFDSCxHQUZhLEVBRVhULFFBRlcsQ0FFRixRQUZFLEVBRVFXLE1BRlIsR0FFaUJBLE1BRmpCLEdBRTBCWCxRQUYxQixDQUVtQyxJQUZuQyxFQUV5Q1csTUFGekMsRUFBZDs7QUFHQSxNQUFJSixPQUFPLENBQUNLLEVBQVIsQ0FBVyxJQUFYLENBQUosRUFBc0I7QUFDbEJMLElBQUFBLE9BQU8sQ0FBQ1AsUUFBUixDQUFpQixRQUFqQjtBQUNIO0FBQ0osQ0ExQkEsQ0FBRCIsInNvdXJjZXNDb250ZW50IjpbIiQoZnVuY3Rpb24oKSB7XG5cbiAgICAkKCcjc2lkZS1tZW51JykubWV0aXNNZW51KCk7XG5cbn0pO1xuXG4vL0xvYWRzIHRoZSBjb3JyZWN0IHNpZGViYXIgb24gd2luZG93IGxvYWQsXG4vL2NvbGxhcHNlcyB0aGUgc2lkZWJhciBvbiB3aW5kb3cgcmVzaXplLlxuLy8gU2V0cyB0aGUgbWluLWhlaWdodCBvZiAjcGFnZS13cmFwcGVyIHRvIHdpbmRvdyBzaXplXG4kKGZ1bmN0aW9uKCkge1xuICAgICQod2luZG93KS5iaW5kKFwibG9hZCByZXNpemVcIiwgZnVuY3Rpb24oKSB7XG4gICAgICAgIHRvcE9mZnNldCA9IDUwO1xuICAgICAgICB3aWR0aCA9ICh0aGlzLndpbmRvdy5pbm5lcldpZHRoID4gMCkgPyB0aGlzLndpbmRvdy5pbm5lcldpZHRoIDogdGhpcy5zY3JlZW4ud2lkdGg7XG4gICAgICAgIGlmICh3aWR0aCA8IDc2OCkge1xuICAgICAgICAgICAgJCgnZGl2Lm5hdmJhci1jb2xsYXBzZScpLmFkZENsYXNzKCdjb2xsYXBzZScpO1xuICAgICAgICAgICAgdG9wT2Zmc2V0ID0gMTAwOyAvLyAyLXJvdy1tZW51XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICAkKCdkaXYubmF2YmFyLWNvbGxhcHNlJykucmVtb3ZlQ2xhc3MoJ2NvbGxhcHNlJyk7XG4gICAgICAgIH1cblxuICAgICAgICBoZWlnaHQgPSAoKHRoaXMud2luZG93LmlubmVySGVpZ2h0ID4gMCkgPyB0aGlzLndpbmRvdy5pbm5lckhlaWdodCA6IHRoaXMuc2NyZWVuLmhlaWdodCkgLSAxO1xuICAgICAgICBoZWlnaHQgPSBoZWlnaHQgLSB0b3BPZmZzZXQ7XG4gICAgICAgIGlmIChoZWlnaHQgPCAxKSBoZWlnaHQgPSAxO1xuICAgICAgICBpZiAoaGVpZ2h0ID4gdG9wT2Zmc2V0KSB7XG4gICAgICAgICAgICAkKFwiI3BhZ2Utd3JhcHBlclwiKS5jc3MoXCJtaW4taGVpZ2h0XCIsIChoZWlnaHQpICsgXCJweFwiKTtcbiAgICAgICAgfVxuICAgIH0pO1xuXG4gICAgdmFyIHVybCA9IHdpbmRvdy5sb2NhdGlvbjtcbiAgICB2YXIgZWxlbWVudCA9ICQoJ3VsLm5hdiBhJykuZmlsdGVyKGZ1bmN0aW9uKCkge1xuICAgICAgICByZXR1cm4gdGhpcy5ocmVmID09IHVybCB8fCB1cmwuaHJlZi5pbmRleE9mKHRoaXMuaHJlZikgPT0gMDtcbiAgICB9KS5hZGRDbGFzcygnYWN0aXZlJykucGFyZW50KCkucGFyZW50KCkuYWRkQ2xhc3MoJ2luJykucGFyZW50KCk7XG4gICAgaWYgKGVsZW1lbnQuaXMoJ2xpJykpIHtcbiAgICAgICAgZWxlbWVudC5hZGRDbGFzcygnYWN0aXZlJyk7XG4gICAgfVxufSk7XG4iXSwiZmlsZSI6Ii4vcmVzb3VyY2VzL2Fzc2V0cy9qcy9saWJzL3NiLWFkbWluLTIuanMuanMiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/assets/js/libs/sb-admin-2.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/assets/js/libs/sb-admin-2.js"]();
+/******/ 	
+/******/ })()
+;
